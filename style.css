@@ -1,11 +1,28 @@
-.div{
-display: flex;
-border: 2px solid black;
+body{
 
+justify-content:center;
+}
+.div1{
+display:flex;
 
 }
 .btn{
 font-size: 20px;
 border-radius:5px;
+margin: 30px;
 
 }
+#gridbtn{
+font-size: 20px;
+border-radius:5px;
+margin: 30px;
+}
+
+#masterGrid{
+display: flex;
+flex-wrap:wrap;
+height: 250px;
+width: 250px;
+}
+
+

@@ -1,0 +1,22 @@
+const btn = document.querySelector("#gridbtn")
+btn.addEventListener("click",() =>{
+let numDivs = prompt("Enter the number of grids")
+let count = parseInt(numDivs)
+});
+
+
+
+const container = document.querySelector ("#masterGrid")
+container.style.width = "800px";
+
+let squareSize = container/count
+
+for (let i = 10; i < count < 100; i++){
+let newDiv = document.createElement('div');
+newDiv.style.border = "1px solid black";
+	newDiv.style.height = "squareSize";
+	newDIv.style.width = "squareSize";
+
+
+	container.appendChild(newDiv);
+}
