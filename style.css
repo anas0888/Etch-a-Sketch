@@ -1,6 +1,7 @@
 body{
-
-justify-content:center;
+display:grid;
+place-items: center;
+height: 100vh;
 }
 .div1{
 display:flex;
@@ -21,8 +22,9 @@ margin: 30px;
 #masterGrid{
 display: flex;
 flex-wrap:wrap;
-height: 250px;
-width: 250px;
+height: 550px;
+width: 550px;
+border: 3px solid black
 }
 
 
