@@ -7,7 +7,7 @@ height: 100vh;
 display:flex;
 
 }
-.btn{
+#resetBtn{
 font-size: 20px;
 border-radius:5px;
 margin: 30px;
