@@ -24,8 +24,12 @@ btn.addEventListener("click",() =>{
 let userInput = prompt("enter number of grids ")
 	let converted = Number(userInput);
 	while (converted < 10 || converted > 100)
+	{
 prompt("Please enter the number of grids again")
-	
+	 converted = Number(userInput);
+	}
+
+        section.innerHTML = "";
+	calculateSection(converted);
 })
 
-calculateSection(converted);
