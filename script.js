@@ -1,5 +1,5 @@
-const btn = document.getElementById('gridbtn')
-
+const btn = document.getElementById('gridbtn');
+const reset = document.getElementById('resetBtn');
 
 function calculateSection(num){
 let square = num * num;
@@ -36,5 +36,12 @@ userInput = prompt("Please enter the number of grids again")
 
         section.innerHTML = "";
 	calculateSection(converted);
+})
+
+
+
+reset.addEventListener("click", () =>{
+	section.innerHTML = "";
+calculateSection(16);
 })
 
