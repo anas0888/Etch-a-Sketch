@@ -10,6 +10,11 @@ const div = document.createElement ('div')
 		div.style.width = `${numOfDivs}%`
 		div.style.boxSizing = "border-box";
 		div.style.border = "1px solid black"
+div.addEventListener("mouseover",() =>{
+div.style.backgroundColor = "black";
+});
+
+
 	section.append(div)
 
 	}
